@@ -19,4 +19,7 @@ function render() {
   const container = document.getElementById('container');
 }
 
-store.dispatch({type: '@@INIT'})
+let candyStore = createStore(candyReducer)
+let countStore = createStore(countReducer)
+candyStorestore.dispatch({type: '@@INIT'})
+countStore.dispatch({type: '@@INIT'})
