@@ -24,5 +24,5 @@ function render() {
 
 let candyStore = createStore(candyReducer)
 let countStore = createStore(countReducer)
-candyStorestore.dispatch({type: '@@INIT'})
+candyStore.dispatch({type: '@@INIT'})
 countStore.dispatch({type: '@@INIT'})
